@@ -1,5 +1,6 @@
 import './App.css';
 import { Player } from '@lottiefiles/react-lottie-player';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         src='https://assets5.lottiefiles.com/packages/lf20_btkj8xsi.json'
         style={{ height: '300px', width: '300px' }}
       ></Player>
-      <button>Enter</button>
+      <Link to='/horoscopes'>
+        <button>Enter</button>
+      </Link>
     </div>
   );
 }
