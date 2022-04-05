@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App'>
+      <header>
+        <h1>Daily Horoscope</h1>
+        <h3>get everyday advice on how to navigate the planets</h3>
       </header>
+      <Player
+        autoplay
+        loop={true}
+        src='https://assets5.lottiefiles.com/packages/lf20_btkj8xsi.json'
+        style={{ height: '300px', width: '300px' }}
+      ></Player>
+      <button>Enter</button>
     </div>
   );
 }
