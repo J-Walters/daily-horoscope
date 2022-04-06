@@ -16,19 +16,19 @@ const signs = [
 const Zodiac = (props) => {
   return (
     <div>
-      <div>
+      <header>
         <h1>Choose Your Sun Sign</h1>
-      </div>
-      <div>
+      </header>
+      <main>
         {signs.map((sign) => (
-          <h4>{sign}</h4>
+          <h4 onClick={null}>{sign}</h4>
         ))}
-      </div>
-      <div>
+      </main>
+      <footer>
         <a href='https://en.wikipedia.org/wiki/Astrological_sign#Western_astrological_correspondence_chart'>
           unsure about your sign?
         </a>
-      </div>
+      </footer>
     </div>
   );
 };

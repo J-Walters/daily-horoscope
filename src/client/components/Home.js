@@ -14,7 +14,7 @@ const Home = (props) => {
         src='https://assets5.lottiefiles.com/packages/lf20_btkj8xsi.json'
         style={{ height: '300px', width: '300px' }}
       ></Player>
-      <Link to='/horoscopes'>
+      <Link to='/zodiac-signs'>
         <button>Enter</button>
       </Link>
     </div>
