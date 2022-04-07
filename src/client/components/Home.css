@@ -3,6 +3,7 @@
   background-color: #8d6b94;
   display: flex;
   flex-direction: column;
+  font-family: 'Paytone One', sans-serif;
 }
 
 .heading-container {
@@ -11,6 +12,7 @@
   align-items: center;
 
   border: 2px solid black;
+  color: white;
 }
 
 .button-container {
@@ -19,10 +21,13 @@
 
 .button {
   position: relative;
-  padding: 15px 32px;
-  border: 2px solid black;
-  border-radius: 2;
-  /* background-color: #b185a7; */
+  padding: 10px 32px;
+  border: 2px solid #37193d;
+  background-color: #5c2d51;
+  border-radius: 2em / 5em;
+  color: white;
+  font-family: 'Paytone One';
+  cursor: pointer;
 }
 
 .button:hover {

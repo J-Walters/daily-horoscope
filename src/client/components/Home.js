@@ -19,7 +19,7 @@ const Home = (props) => {
       </figure>
       <div class='button-container'>
         <Link to='/zodiac-signs'>
-          <button class='button'>Enter</button>
+          <button className='button'>enter</button>
         </Link>
       </div>
     </div>
