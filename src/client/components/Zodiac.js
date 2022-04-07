@@ -3,18 +3,18 @@ import ZodiacCard from './ZodiacCard';
 
 const Zodiac = (props) => {
   const [signs, setSigns] = useState([
-    'Aries',
-    'Taurus',
-    'Gemini',
-    'Cancer',
-    'Leo',
-    'Virgo',
-    'Libra',
-    'Scorpio',
-    'Sagittarius',
-    'Capricorn',
-    'Aquarius',
-    'Pisces',
+    'aries',
+    'taurus',
+    'gemini',
+    'cancer',
+    'leo',
+    'virgo',
+    'libra',
+    'scorpio',
+    'sagittarius',
+    'capricorn',
+    'aquarius',
+    'pisces',
   ]);
   return (
     <div>
