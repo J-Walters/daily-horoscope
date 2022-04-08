@@ -23,7 +23,7 @@ const Zodiac = (props) => {
       </header>
       <main>
         {signs.map((sign) => (
-          <ZodiacCard sign={sign} />
+          <ZodiacCard key={sign} sign={sign} />
         ))}
       </main>
       <footer>
