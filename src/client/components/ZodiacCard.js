@@ -1,16 +1,21 @@
 import { Link } from 'react-router-dom';
 import Images from '../../horoscope-images/index';
+import './ZodiacCard.css';
 
 const ZodiacCard = (props) => {
   return (
-    <div>
+    <div className='card-container'>
       <Link to={`/zodiac-signs/${props.sign}`}>
-        <img
-          src={Images[props.sign]}
-          style={{ height: 150, width: 150 }}
-          alt=''
-        />
-        <h6>{props.sign}</h6>
+        <div className='image-container'>
+          <img
+            src={Images[props.sign]}
+            alt={`The zodiac sign ${props.sign}.`}
+          />
+          <div className='division'></div>
+          <div className='button-container'>
+            <h6>{props.sign}</h6>
+          </div>
+        </div>
       </Link>
     </div>
   );

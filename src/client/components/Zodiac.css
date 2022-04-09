@@ -1,0 +1,17 @@
+.sign-container {
+  background-color: #8d6b94;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  /* color: white; */
+  text-align: center;
+}
+
+main {
+  display: flex;
+  background-color: #8d6b94;
+  justify-content: center;
+  overflow-x: scroll;
+}

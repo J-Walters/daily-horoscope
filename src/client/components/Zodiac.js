@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ZodiacCard from './ZodiacCard';
+import './Zodiac.css';
 
 const Zodiac = (props) => {
   const [signs, setSigns] = useState([
@@ -17,7 +18,7 @@ const Zodiac = (props) => {
     'pisces',
   ]);
   return (
-    <div>
+    <div className='sign-container'>
       <header>
         <h1>Choose Your Sun Sign</h1>
       </header>

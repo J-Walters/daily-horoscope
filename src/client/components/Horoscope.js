@@ -28,11 +28,10 @@ const Horoscope = () => {
       .catch(function (error) {
         console.error(error);
       });
-  }, []);
+  }, [params.sign]);
 
   return (
     <div>
-      <h1>hello i'm the right sign</h1>
       <h1>{params.sign}</h1>
       <h1>{horoscope.description}</h1>
     </div>
