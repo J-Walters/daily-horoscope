@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import key from '../Keys.js';
+import key from '../../Keys.js';
 
 const Horoscope = () => {
   let params = useParams();
