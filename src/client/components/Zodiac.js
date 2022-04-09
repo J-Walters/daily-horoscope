@@ -19,7 +19,7 @@ const Zodiac = (props) => {
   ]);
   return (
     <div className='sign-container'>
-      <header>
+      <header className='header-container'>
         <h1>Choose Your Sun Sign</h1>
       </header>
       <main>

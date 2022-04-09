@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
 .sign-container {
   background-color: #8d6b94;
   min-height: 100vh;
@@ -7,10 +9,11 @@
   justify-content: space-around;
 }
 
-h1 {
-  font-family: 'Paytone One', sans-serif;
-  /* color: white; */
+.header-container {
+  font-family: 'Patrick Hand', sans-serif;
+  color: #fff4e9;
   text-align: center;
+  font-size: 50px;
 }
 
 main {
@@ -31,7 +34,7 @@ button {
   border-radius: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 20px;
+  padding: 15px;
   color: #fff4e9;
   font-weight: bold;
 }
