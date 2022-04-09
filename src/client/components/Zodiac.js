@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import ZodiacCard from './ZodiacCard';
-import Images from '../../horoscope-images/index';
 
 const Zodiac = (props) => {
   const [signs, setSigns] = useState([
@@ -26,14 +25,6 @@ const Zodiac = (props) => {
         {signs.map((sign) => (
           <>
             <ZodiacCard key={sign} sign={sign} />
-            <img
-              src={Images.aries}
-              style={{ height: 150, width: 150 }}
-              alt=''
-            />
-            {/* <img src={taurus} style={{ height: 150, width: 150 }} alt='' />
-            <img src={gemini} style={{ height: 150, width: 150 }} alt='' />
-            <img src={cancer} style={{ height: 150, width: 150 }} alt='' /> */}
           </>
         ))}
       </main>

@@ -8,21 +8,8 @@ import libra from './libra.png';
 import scorpio from './scorpio.png';
 import sagittarius from './sagittarius.png';
 import capricorn from './capricorn.png';
-import aquarius from './pisces.png';
-
-// export {
-//   aries,
-//   // taurus,
-//   // gemini,
-//   // cancer,
-//   // leo,
-//   // virgo,
-//   // libra,
-//   // scorpio,
-//   // sagittarius,
-//   // capricorn,
-//   // aquarius,
-// };
+import aquarius from './aquarius.png';
+import pisces from './pisces.png';
 
 const Images = {
   aries,
@@ -36,8 +23,7 @@ const Images = {
   sagittarius,
   capricorn,
   aquarius,
+  pisces,
 };
 
 export default Images;
-
-// export default aries;
