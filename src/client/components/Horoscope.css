@@ -34,6 +34,25 @@
   padding: 20px;
 }
 
+.download-container {
+  margin-top: 100px;
+}
+
+.download-button {
+  background-color: transparent;
+  border: 1px solid #593959;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  color: #fff4e9;
+  font-weight: bold;
+}
+
+.download-button:hover {
+  background-color: #593959;
+}
+
 img {
   height: 350px;
   width: 350px;

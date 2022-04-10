@@ -30,7 +30,7 @@ const Zodiac = (props) => {
         ))}
       </main>
       <footer className='unsure-button-container'>
-        <button>unsure about your sign?</button>
+        <button className='unsure-button'>unsure about your sign?</button>
       </footer>
     </div>
   );

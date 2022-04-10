@@ -57,6 +57,9 @@ const Horoscope = () => {
         <h2>Mood</h2>
         <h2>{horoscope.mood}</h2>
       </div>
+      <div className='download-container'>
+        <button className='download-button'>Download Todays Reading</button>
+      </div>
     </div>
   );
 };
