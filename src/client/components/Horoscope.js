@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import DownloadButton from './Download';
 import Images from '../../horoscope-images/index';
 import './Horoscope.css';
 
@@ -58,7 +59,7 @@ const Horoscope = () => {
         <h2>{horoscope.mood}</h2>
       </div>
       <div className='download-container'>
-        <button className='download-button'>Download Todays Reading</button>
+        <DownloadButton horoscope={horoscope} params={params} />
       </div>
     </div>
   );
