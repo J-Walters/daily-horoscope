@@ -17,28 +17,28 @@
   flex-wrap: wrap;
   justify-content: center;
   min-width: 50%;
-  border: 5px solid pink;
 }
 
 .unsure-button-container {
-  /* border: 2px solid black;
-  background: black; */
-}
-
-.unsure-button {
-  background-color: transparent;
-  border: 1px solid #593959;
-  border-radius: 20px;
+  border: 2px solid #593959;
+  margin: 20px;
+  border-radius: 10px;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 15px;
-  color: #fff4e9;
+  padding: 10px;
   font-weight: bold;
 }
 
-.unsure-button:hover {
+.unsure-button {
+  text-decoration: none;
+  color: #fff4e9;
+  font-size: 0.75rem;
+  background-color: transparent;
+}
+
+.unsure-button-container:hover {
   background-color: #593959;
 }
 
-@media only screen and (max-width: 480px) {
-} ;
+/* @media only screen and (max-width: 480px) {
+} ; */

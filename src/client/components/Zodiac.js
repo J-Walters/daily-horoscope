@@ -31,7 +31,14 @@ const Zodiac = () => {
         ))}
       </main>
       <footer className='unsure-button-container'>
-        <button className='unsure-button'>unsure about your sign?</button>
+        <a
+          href='https://en.wikipedia.org/wiki/Astrological_sign#Western_astrological_correspondence_chart'
+          target='_blank'
+          className='unsure-button'
+          rel='noreferrer'
+        >
+          unsure about your sign?
+        </a>
         {/* <SignModal /> */}
       </footer>
     </div>
