@@ -4,19 +4,25 @@
   border-radius: 10px;
   margin: 10px;
   box-shadow: 10px 5px 5px #593959;
-  /* max-width: 40%;
-  max-height: 50%; */
+  max-width: 250px;
+  max-height: 250px;
 }
 
-.image-container {
+.card-container:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.content {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* background-color: red; */
 }
 
-.image-container img {
+.content img {
   cursor: pointer;
+  height: 60%;
+  width: 60%;
+  padding: 0px;
 }
 
 .division {
@@ -29,26 +35,15 @@
   display: flex;
   justify-content: center;
   text-align: center;
-
-  border: 2px solid green;
 }
 
 .sign-btn-container p {
-  font-size: 12px;
+  font-size: 0.65rem;
   background-color: #593959;
-  /* width: 100%; */
   padding: 10px 20px;
   border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff4e9;
-  cursor: pointer;
-  /* margin-top: 50px; */
-}
-
-img {
-  height: 75px;
-  width: 100px;
-  /* border: 2px solid black; */
 }

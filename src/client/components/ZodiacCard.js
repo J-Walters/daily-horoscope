@@ -7,9 +7,9 @@ const ZodiacCard = (props) => {
     <div className='card-container'>
       <Link
         to={`/zodiac-signs/${props.sign}`}
-        style={{ textDecoration: 'none', cursor: 'default' }}
+        style={{ textDecoration: 'none' }}
       >
-        <div className='image-container'>
+        <div className='content'>
           <img
             src={Images[props.sign]}
             alt={`The zodiac sign ${props.sign}.`}

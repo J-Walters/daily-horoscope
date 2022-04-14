@@ -3,7 +3,7 @@ import ZodiacCard from './ZodiacCard';
 import './Zodiac.css';
 import SignModal from './SignModal';
 
-const Zodiac = (props) => {
+const Zodiac = () => {
   const [signs, setSigns] = useState([
     'aries',
     'taurus',
@@ -23,7 +23,7 @@ const Zodiac = (props) => {
       <header className='header-container'>
         <h1>Choose Your Sun Sign</h1>
       </header>
-      <main>
+      <main className='main-card-container'>
         {signs.map((sign) => (
           <>
             <ZodiacCard key={sign} sign={sign} />
@@ -31,8 +31,8 @@ const Zodiac = (props) => {
         ))}
       </main>
       <footer className='unsure-button-container'>
-        {/* <button className='unsure-button'>unsure about your sign?</button> */}
-        <SignModal />
+        <button className='unsure-button'>unsure about your sign?</button>
+        {/* <SignModal /> */}
       </footer>
     </div>
   );

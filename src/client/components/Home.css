@@ -1,19 +1,16 @@
 .home-container {
   min-height: 100vh;
-  /* background-color: #8d6b94; */
   display: flex;
   flex-direction: column;
-  /* font-family: sans-serif; */
 }
 
 .heading-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid black; */
   color: #fff4e9;
-  /* color: black; */
   font-size: 1em;
+  text-align: center;
 }
 
 .tagline {
@@ -23,7 +20,6 @@
 }
 
 .logo-container {
-  /* display: flex; */
   align-self: center;
 }
 
@@ -55,4 +51,15 @@
 
 .enter:active {
   transform: scale(0.96);
+}
+
+@media only screen and (max-width: 480px) {
+  .logo-container img {
+    height: 200px;
+  }
+
+  .enter {
+    padding: 10px;
+    font-size: 0.5rem;
+  }
 }
