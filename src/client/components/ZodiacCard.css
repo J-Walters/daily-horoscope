@@ -4,41 +4,51 @@
   border-radius: 10px;
   margin: 10px;
   box-shadow: 10px 5px 5px #593959;
+  /* max-width: 40%;
+  max-height: 50%; */
 }
 
-/* .image-container {
-  border-bottom: 2px solid black;
-  border-width: 
-} */
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.image-container img {
+  cursor: pointer;
+}
 
 .division {
   border: 0.5px solid black;
-  margin: 0px 5px 0px 15px;
+  margin: 0px;
   width: 80%;
 }
 
-.button-container {
+.sign-btn-container {
   display: flex;
   justify-content: center;
   text-align: center;
-  text-decoration: none;
-  /* border: 2px solid green; */
+
+  border: 2px solid green;
 }
 
-.button-container h6 {
+.sign-btn-container p {
   font-size: 12px;
-  /* border: 2px solid black; */
   background-color: #593959;
-  width: 70%;
-  padding: 3px;
-  border-radius: 20px;
+  /* width: 100%; */
+  padding: 10px 20px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   color: #fff4e9;
+  cursor: pointer;
+  /* margin-top: 50px; */
 }
 
 img {
-  height: 125px;
-  width: 150px;
+  height: 75px;
+  width: 100px;
+  /* border: 2px solid black; */
 }

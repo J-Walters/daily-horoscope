@@ -1,38 +1,58 @@
 .home-container {
   min-height: 100vh;
-  background-color: #8d6b94;
+  /* background-color: #8d6b94; */
   display: flex;
   flex-direction: column;
-  font-family: 'Paytone One', sans-serif;
+  /* font-family: sans-serif; */
 }
 
 .heading-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
-  color: white;
+  /* border: 2px solid black; */
+  color: #fff4e9;
+  /* color: black; */
+  font-size: 1em;
 }
 
-.button-container {
+.tagline {
+  border-bottom: 2px solid #37193d;
+  padding-bottom: 5px;
+  font-size: 0.75em;
+}
+
+.logo-container {
+  /* display: flex; */
   align-self: center;
 }
 
-.button {
-  position: relative;
-  padding: 10px 32px;
+.logo-container img {
+  height: 400px;
+  width: auto;
+  margin: 50px 0px;
+}
+
+.enter-container {
+  align-self: center;
+}
+
+.enter {
+  padding: 0.8rem 1.25rem;
   border: 2px solid #37193d;
   background-color: #5c2d51;
-  border-radius: 2em / 5em;
-  color: white;
-  font-family: 'Paytone One';
+  border-radius: 0.75rem;
+  color: #fff4e9;
   cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.button:hover {
-  background-color: #b185a7;
+.enter:hover {
+  background-color: #37193d;
 }
 
-figure {
-  border: 2px solid green;
+.enter:active {
+  transform: scale(0.96);
 }

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ZodiacCard from './ZodiacCard';
 import './Zodiac.css';
+import SignModal from './SignModal';
 
 const Zodiac = (props) => {
   const [signs, setSigns] = useState([
@@ -30,7 +31,8 @@ const Zodiac = (props) => {
         ))}
       </main>
       <footer className='unsure-button-container'>
-        <button className='unsure-button'>unsure about your sign?</button>
+        {/* <button className='unsure-button'>unsure about your sign?</button> */}
+        <SignModal />
       </footer>
     </div>
   );

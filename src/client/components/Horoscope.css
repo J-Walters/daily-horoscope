@@ -1,5 +1,5 @@
 .horoscope-container {
-  background-color: #8d6b94;
+  /* background-color: #8d6b94; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

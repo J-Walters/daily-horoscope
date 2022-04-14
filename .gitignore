@@ -24,3 +24,6 @@ yarn-error.log*
 
 //API Keys
 Keys.js
+
+SignModal.css
+SignModal.js
