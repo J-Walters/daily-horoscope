@@ -4,7 +4,6 @@ import DownloadButton from './Download';
 import Images from '../../horoscope-images/index';
 import './Horoscope.css';
 import axios from 'axios';
-import key from '../../Keys.js';
 import Loading from './Loading';
 
 const Horoscope = () => {
