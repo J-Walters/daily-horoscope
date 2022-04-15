@@ -9,7 +9,6 @@ import key from '../../Keys.js';
 
 const Horoscope = () => {
   let params = useParams();
-
   const [horoscope, setHoroscope] = useState({});
 
   useEffect(() => {
@@ -36,31 +35,52 @@ const Horoscope = () => {
 
   return (
     <div className='horoscope-container'>
-      <header className='header'>
-        <h1>{horoscope.current_date}</h1>
-      </header>
-      <div className='reading-container'>
-        <div className='zodiac-name'>
-          <h1>{params.sign}</h1>
-        </div>
-        <h1>{horoscope.date_range}</h1>
-        <img
-          src={Images[params.sign]}
-          alt={`The zodiac sign ${Images[params.sign]}`}
-        />
+      <h1>{horoscope.current_date}</h1>
+      <main className='reading-container'>
+        <section className='first-half-card'>
+          <header className='zodiac-title'>
+            <h2>{params.sign}</h2>
+          </header>
+          <figure>
+            <img
+              className='zo-image'
+              src={Images[params.sign]}
+              alt={`The zodiac sign ${Images[params.sign]}`}
+            />
+          </figure>
+          <h3 className='zodiac-date'>{horoscope.date_range}</h3>
+        </section>
         <div className='division'></div>
-        <h1 className='description'>{horoscope.description}</h1>
+        <section className='mid-card'>
+          <p>{horoscope.description}</p>
+        </section>
         <div className='division'></div>
-        <h2>Compatibility</h2>
-        <h2>{horoscope.compatibility}</h2>
-        <h2>Lucky Number</h2>
-        <h2>{horoscope.lucky_number}</h2>
-        <h2>Mood</h2>
-        <h2>{horoscope.mood}</h2>
-      </div>
-      <div className='download-container'>
+        <section className='lower-half'>
+          <div>
+            <h3>Compatibility</h3>
+            <p>{horoscope.compatibility}</p>
+          </div>
+          <div>
+            <h3>Lucky Number</h3>
+            <p>{horoscope.lucky_number}</p>
+          </div>
+          <div>
+            <h3>Lucky Time</h3>
+            <p>{horoscope.lucky_time}</p>
+          </div>
+          <div>
+            <h3>Mood</h3>
+            <p>{horoscope.mood}</p>
+          </div>
+          <div>
+            <h3>Color</h3>
+            <p>{horoscope.color}</p>
+          </div>
+        </section>
+      </main>
+      <footer className='dwnld-footer'>
         <DownloadButton horoscope={horoscope} params={params} />
-      </div>
+      </footer>
     </div>
   );
 };

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { HiDownload } from 'react-icons/hi';
 
 const DownloadButton = ({ horoscope, params }) => {
   const [downloadLink, setDownloadLink] = useState('');
@@ -16,10 +17,18 @@ const DownloadButton = ({ horoscope, params }) => {
 
   return (
     <a
+      style={{
+        backgroundColor: '#593959',
+        textDecoration: 'none',
+        color: '#fff4e9',
+        padding: 10,
+        borderRadius: 5,
+        textTransform: 'uppercase',
+      }}
       download={`${params.sign}-${horoscope.current_date}.txt`}
       href={downloadLink}
     >
-      download today's reading
+      download today's reading <HiDownload />
     </a>
   );
 };

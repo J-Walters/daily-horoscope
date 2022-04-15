@@ -1,59 +1,106 @@
 .horoscope-container {
-  /* background-color: #8d6b94; */
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
 }
 
-.header {
-  text-transform: uppercase;
-  color: #fff4e9;
-  margin: 20px;
+.horoscope-container h1 {
+  font-size: 1.5rem;
+  margin: 25px 0px;
+  text-align: center;
 }
 
 .reading-container {
   border: 2px solid black;
+  background-color: #fff4e9;
+  width: 60%;
+  min-width: 180px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 30px 15px #593959;
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #fff4e9;
-  width: 40%;
-  border-radius: 20px;
-  box-shadow: 10px 5px 5px #593959;
 }
 
-.zodiac-name {
+.zodiac-title,
+.zodiac-date {
+  font-size: 0.85rem;
+  color: #593959;
+}
+
+.zodiac-title {
   text-transform: uppercase;
-  color: #b185a7;
 }
 
-.description {
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0px;
+}
+
+figure .zo-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.first-half-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-half-card h3 {
   text-align: center;
-  color: #b185a7;
-  padding: 20px;
 }
 
-.download-container {
-  margin-top: 100px;
+.mid-card {
+  display: flex;
+  justify-content: center;
 }
 
-.download-button {
-  background-color: transparent;
-  border: 1px solid #593959;
-  border-radius: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 15px;
-  color: #fff4e9;
-  font-weight: bold;
+.mid-card p {
+  width: 80%;
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 0.9rem;
 }
 
-.download-button:hover {
-  background-color: #593959;
+.reading-container .lower-half {
+  display: flex;
+  justify-content: center;
 }
 
-/* img {
-  height: 350px;
-  width: 350px;
-} */
+.lower-half {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 15px;
+}
+
+.lower-half div {
+  text-align: center;
+  margin: 10px;
+  text-transform: lowercase;
+  font-size: 0.85rem;
+}
+
+.lower-half h3 {
+  color: #593959;
+}
+
+.dwnld-footer {
+  margin: 30px 0px;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .reading-container {
+    width: 45%;
+  }
+}
