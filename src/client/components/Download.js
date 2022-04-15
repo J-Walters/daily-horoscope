@@ -24,6 +24,8 @@ const DownloadButton = ({ horoscope, params }) => {
         padding: 10,
         borderRadius: 5,
         textTransform: 'uppercase',
+        fontSize: 12,
+        fontWeight: 'bold',
       }}
       download={`${params.sign}-${horoscope.current_date}.txt`}
       href={downloadLink}

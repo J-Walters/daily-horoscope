@@ -5,16 +5,14 @@ const NotFound = () => {
   return (
     <div className='not-found-container'>
       <main className='not-found-main'>
-        <div className='not-found-title'>
-          <h1>Not Found 404</h1>
-        </div>
-        <div className='return-button'>
-          {/* <Link to='/'> */}
-          <a href='' alt='return button'>
+        <h1>404</h1>
+        <h2>Looks like you're lost</h2>
+        <p>the page you are looking for is not available</p>
+        <Link to='/'>
+          <button className='not-found-button'>
             <span>Return Home</span>
-          </a>
-          {/* </Link> */}
-        </div>
+          </button>
+        </Link>
       </main>
     </div>
   );
