@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import ZodiacCard from './ZodiacCard';
 import './Zodiac.css';
-import SignModal from './SignModal';
 
 const Zodiac = () => {
   const [signs, setSigns] = useState([

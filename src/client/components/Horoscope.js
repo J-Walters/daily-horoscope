@@ -30,7 +30,7 @@ const Horoscope = () => {
 
         // TIMEOUT SO LOADING LOOKS LEGIT
         setTimeout(() => {
-          // setLoading(false);
+          setLoading(false);
         }, 1500);
       })
       .catch(function (error) {
@@ -38,7 +38,7 @@ const Horoscope = () => {
       });
   }, []);
 
-  // if (loading) return <Loading />;
+  if (loading) return <Loading />;
   return (
     <div className='horoscope-container'>
       <h1>{horoscope.current_date}</h1>
