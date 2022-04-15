@@ -3,13 +3,14 @@ import { useState, useEffect } from 'react';
 import DownloadButton from './Download';
 import Images from '../../horoscope-images/index';
 import './Horoscope.css';
-
 import axios from 'axios';
 import key from '../../Keys.js';
+import Loading from './Loading';
 
 const Horoscope = () => {
   let params = useParams();
   const [horoscope, setHoroscope] = useState({});
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const options = {
@@ -27,12 +28,18 @@ const Horoscope = () => {
       .then(function (response) {
         console.log(response.data);
         setHoroscope({ ...response.data });
+
+        //TIMEOUT SO LOADING LOOKS LEGIT
+        setTimeout(() => {
+          setLoading(false);
+        }, 1500);
       })
       .catch(function (error) {
         console.error(error);
       });
-  }, [params.sign]);
+  }, []);
 
+  if (loading) return <Loading />;
   return (
     <div className='horoscope-container'>
       <h1>{horoscope.current_date}</h1>

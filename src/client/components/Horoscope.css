@@ -18,6 +18,7 @@
   background-color: #fff4e9;
   width: 60%;
   min-width: 180px;
+  max-width: 500px;
   border-radius: 20px;
   box-shadow: 5px 5px 30px 15px #593959;
   display: flex;
@@ -92,15 +93,10 @@ figure .zo-image {
 
 .lower-half h3 {
   color: #593959;
+  /* text-transform: uppercase; */
 }
 
 .dwnld-footer {
   margin: 30px 0px;
   text-decoration: none;
-}
-
-@media (min-width: 1024px) {
-  .reading-container {
-    width: 45%;
-  }
 }
