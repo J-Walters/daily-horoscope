@@ -19,7 +19,7 @@ const Horoscope = () => {
       params: { sign: `${params.sign}`, day: 'today' },
       headers: {
         'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com',
-        'X-RapidAPI-Key': key.apiKey,
+        'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
       },
     };
 
@@ -29,9 +29,9 @@ const Horoscope = () => {
         console.log(response.data);
         setHoroscope({ ...response.data });
 
-        //TIMEOUT SO LOADING LOOKS LEGIT
+        // TIMEOUT SO LOADING LOOKS LEGIT
         setTimeout(() => {
-          setLoading(false);
+          // setLoading(false);
         }, 1500);
       })
       .catch(function (error) {
@@ -39,7 +39,7 @@ const Horoscope = () => {
       });
   }, []);
 
-  if (loading) return <Loading />;
+  // if (loading) return <Loading />;
   return (
     <div className='horoscope-container'>
       <h1>{horoscope.current_date}</h1>
