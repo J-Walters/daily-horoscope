@@ -1,72 +1,105 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-hi i am a test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img src="src/horoscope-images/crystalBall.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Available Scripts
+<h3 align="center">Daily Horoscope</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Daily Horoscope is a web application for users to select their zodiac sign and view, not only their horoscope reading, but compatible sign, lucky number, mood and more!
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm test`
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The goal of this project was to familiarize myself with exteranal api's and deliver them in an aesthetically pleasing way. Combine that with a love of all things astrological and Daily Horoscope is born! Check in daily to get a new horoscope reading and learn how to navigate the stars. If you have any questions or suggestions please do not hesitate to reach out via the contact information below.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React.js](https://reactjs.org/)
+  * React Hooks
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### `npm run eject`
+<!-- GETTING STARTED -->
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running follow these simple example steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Get a free API Key at [https://rapidapi.com/sameer.kumar/api/aztro/](https://rapidapi.com/sameer.kumar/api/aztro/)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/J-Walters/daily-horoscope.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `Horoscope.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+   
+<!-- USAGE EXAMPLES -->
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-## Learn More
+_For more examples, please refer to the [Documentation](https://example.com)_
+ -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- ROADMAP -->
+## Roadmap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] A user should be able to enter birthdate in modal and receive corresponding zodiac sign. 
+- [ ] Create a favorite’s list of readings.
+- [ ] Tweet/Email/Text reading (more sharing options)
 
-### Code Splitting
+Checkout out a detailed version of next steps for code and design [here](https://www.notion.so/Daily-Horoscope-60630f1037eb4fc398c0e53b9a122067)!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-### Making a Progressive Web App
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- CONTACT -->
+## Contact
 
-### Advanced Configuration
+Jordan Walters - [LinkedIn](https://www.linkedin.com/in/walters-jordan/) - jwalters012@gmail.com - [GitHub](https://github.com/J-Walters)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Deployed Link: [https://dailyhoroscope-reading.netlify.app/](https://dailyhoroscope-reading.netlify.app/)
 
-### Deployment
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Aztro Astrology API](https://aztro.readthedocs.io/en/latest/)
+* [Invisual Studio Art](https://www.canva.com/)
+* [Coolors Palette](https://coolors.co/palette/8d6b94-b185a7-c3a29e-e8dbc5-fff4e9)
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
