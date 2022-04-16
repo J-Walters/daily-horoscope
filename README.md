@@ -25,8 +25,9 @@
 </div>
 <br>
 
+<p align="center">
 The goal of this project was to familiarize myself with external api's and deliver them in an aesthetically pleasing way. Combine that with a love of all things astrological and Daily Horoscope is born! Check in daily to get a new horoscope reading and learn how to navigate the stars. If you have any questions or suggestions please do not hesitate to reach out via the contact information below.
-
+</p>
 
 ### Built With
 
