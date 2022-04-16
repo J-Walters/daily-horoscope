@@ -9,14 +9,20 @@
   flex-direction: column;
   align-items: center;
   color: #fff4e9;
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.heading-container .title {
+  font-family: 'Rakkas';
+  letter-spacing: 1px;
 }
 
 .tagline {
-  border-bottom: 2px solid #37193d;
+  border-bottom: 2px solid #593959;
   padding-bottom: 5px;
-  font-size: 0.75em;
+  font-size: 0.9em;
 }
 
 .logo-container {
@@ -34,19 +40,21 @@
 }
 
 .enter {
-  padding: 0.8rem 1.25rem;
-  border: 2px solid #37193d;
-  background-color: #5c2d51;
-  border-radius: 0.75rem;
+  padding: 10px 20px;
+  border: 1px solid #593959;
+  background-color: #593959;
+  border-radius: 10px;
   color: #fff4e9;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-family: 'Padlova';
 }
 
 .enter:hover {
-  background-color: #37193d;
+  background-color: transparent;
+  color: #593959;
 }
 
 .enter:active {
@@ -59,7 +67,13 @@
   }
 
   .enter {
-    padding: 10px;
     font-size: 0.5rem;
+  }
+  .tagline {
+    width: 70%;
+  }
+
+  .logo-container {
+    padding: 10%;
   }
 }

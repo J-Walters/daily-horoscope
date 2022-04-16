@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
     <div className='home-container'>
       <header className='heading-container'>
-        <h1>Daily Horoscope</h1>
+        <h1 className='title'>Daily Horoscope</h1>
         <div className='tagline'>
           <p>get everyday advice on how to navigate the planets</p>
         </div>
