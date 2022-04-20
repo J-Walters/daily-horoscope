@@ -20,10 +20,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+<div>
+<img src=public/header.png >
+</div>
+<br>
 
-The goal of this project was to familiarize myself with exteranal api's and deliver them in an aesthetically pleasing way. Combine that with a love of all things astrological and Daily Horoscope is born! Check in daily to get a new horoscope reading and learn how to navigate the stars. If you have any questions or suggestions please do not hesitate to reach out via the contact information below.
-
+<p align="center">
+The goal of this project was to familiarize myself with external api's and deliver them in an aesthetically pleasing way. Combine that with a love of all things astrological and Daily Horoscope is born! Check in daily to get a new horoscope reading and learn how to navigate the stars. If you have any questions or suggestions please do not hesitate to reach out via the contact information below.
+</p>
 
 ### Built With
 
@@ -58,10 +62,9 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
- -->
+<div>
+<img src=public/ezgif.com-gif-maker.gif >
+</div>
 
 <!-- ROADMAP -->
 ## Roadmap
