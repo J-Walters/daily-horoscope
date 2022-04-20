@@ -31,7 +31,7 @@ const Horoscope = () => {
         // TIMEOUT SO LOADING LOOKS LEGIT
         setTimeout(() => {
           setLoading(false);
-        }, 1500);
+        }, 1250);
       })
       .catch(function (error) {
         console.error(error);
