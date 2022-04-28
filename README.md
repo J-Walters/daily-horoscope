@@ -58,7 +58,10 @@ To get a local copy up and running follow these simple example steps.
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-   
+5. Start the project
+   ```
+   npm start
+   ```
 <!-- USAGE EXAMPLES -->
 ## Usage
 
