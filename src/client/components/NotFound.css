@@ -39,6 +39,8 @@
   cursor: pointer;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: 'Podkova';
+  letter-spacing: 1px;
 }
 
 .not-found-button:hover {
