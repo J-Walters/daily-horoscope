@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { Fragment } from 'react';
 import ZodiacCard from './ZodiacCard';
 import './Zodiac.css';
 
 const Zodiac = () => {
-  const [signs, setSigns] = useState([
+  const signs = [
     'aries',
     'taurus',
     'gemini',
@@ -16,7 +16,7 @@ const Zodiac = () => {
     'capricorn',
     'aquarius',
     'pisces',
-  ]);
+  ];
   return (
     <div className='sign-container'>
       <header className='header-container'>
@@ -24,9 +24,9 @@ const Zodiac = () => {
       </header>
       <main className='main-card-container'>
         {signs.map((sign) => (
-          <>
-            <ZodiacCard key={sign} sign={sign} />
-          </>
+          <Fragment key={sign}>
+            <ZodiacCard sign={sign} />
+          </Fragment>
         ))}
       </main>
       <footer className='unsure-button-container'>
@@ -38,7 +38,6 @@ const Zodiac = () => {
         >
           unsure about your sign?
         </a>
-        {/* <SignModal /> */}
       </footer>
     </div>
   );

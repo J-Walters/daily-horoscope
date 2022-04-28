@@ -25,7 +25,6 @@ const Horoscope = () => {
     axios
       .request(options)
       .then(function (response) {
-        console.log(response.data);
         setHoroscope({ ...response.data });
 
         // TIMEOUT SO LOADING LOOKS LEGIT
