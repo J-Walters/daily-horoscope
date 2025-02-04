@@ -97,7 +97,7 @@ Don't forget to give the project a star! Thanks again!
 
 Jordan Walters - [LinkedIn](https://www.linkedin.com/in/walters-jordan/) - jwalters012@gmail.com - [GitHub](https://github.com/J-Walters)
 
-Deployed Link: [https://dailyhoroscope-reading.netlify.app/](https://dailyhoroscope-reading.netlify.app/)
+<!-- Deployed Link: [https://dailyhoroscope-reading.netlify.app/](https://dailyhoroscope-reading.netlify.app/) -->
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
